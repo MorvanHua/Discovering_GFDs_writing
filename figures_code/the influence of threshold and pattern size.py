@@ -52,21 +52,21 @@ plt.yticks([2,3],[2,3])
 plt.title("(a)Exploring pattern size effect, new method",fontsize=12)
 
 ax = fig.add_subplot(222, projection='3d')
-x1 = [4000,4000,4000]
-y1 = [0,2,3]
-z1= [0,28,164]
+x1 = [4000,4000]
+y1 = [2,3]
+z1= [28,164]
 plt.plot(x1,y1,z1,color = 'purple')
-x1 = [5000,5000,5000]
-y1 = [0,2,3]
-z1= [0,28,164]
+x1 = [5000,5000]
+y1 = [2,3]
+z1= [28,164]
 plt.plot(x1,y1,z1,color = 'orange')
-x1 = [6000,6000,6000]
-y1 = [0,2,3]
-z1= [0,14,162]
+x1 = [6000,6000]
+y1 = [2,3]
+z1= [14,162]
 plt.plot(x1,y1,z1,color = 'green')
-x2 = [7000,7000,7000]
-y2 = [0,2,3]
-z2= [0,14,162]
+x2 = [7000,7000]
+y2 = [2,3]
+z2= [14,162]
 plt.plot(x2,y2,z2,color = 'yellow')
 # x = [7500,7500,7500]
 # y = [0,2,3]

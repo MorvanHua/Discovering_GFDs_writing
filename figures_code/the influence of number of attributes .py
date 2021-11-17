@@ -30,7 +30,7 @@ ax.set_ylabel('PatternID')
 ax.set_zlabel('Time(seconds)')
 plt.xticks([2,3,4,5,6],[2,3,4,5,6])    
 plt.yticks([1,2,3],[1,2,3])
-plt.title("(a) IMDB with 100000, 2 size of pattern",fontsize=12)
+plt.title("(a) IMDB with 100000 nodes, 2 size of pattern",fontsize=12)
 
 ax = fig.add_subplot(232, projection='3d')
 x1 = [3,4,5,6,7,8,9]
@@ -50,7 +50,7 @@ ax.set_ylabel('PatternID')
 ax.set_zlabel('Time(seconds)') 
 plt.xticks([3,4,5,6,7,8,9],[3,4,5,6,7,8,9])   
 plt.yticks([1,2,3],[1,2,3])
-plt.title("(b) IMDB with 100000, 3 size of pattern",fontsize=12)
+plt.title("(b) IMDB with 100000 nodes, 3 size of pattern",fontsize=12)
 
 ax = fig.add_subplot(233, projection='3d')
 x1 = [4,5,6,7,8,9,10,11,12]
@@ -70,7 +70,7 @@ ax.set_ylabel('PatternID')
 ax.set_zlabel('Time(seconds)') 
 plt.xticks([4,5,6,7,8,9,10,11,12],[4,5,6,7,8,9,10,11,12]) 
 plt.yticks([1,2,3],[1,2,3])
-plt.title("(c) IMDB with 100000, 4 size of pattern",fontsize=12)
+plt.title("(c) IMDB with 100000 nodes, 4 size of pattern",fontsize=12)
 
 ax = fig.add_subplot(234, projection='3d')
 x1 = [2,3,4,5,6,7,8]
@@ -98,7 +98,7 @@ ax.set_ylabel('PatternID')
 ax.set_zlabel('Time(seconds)') 
 plt.xticks([2,3,4,5,6,7,8],[2,3,4,5,6,7,8]) 
 plt.yticks([1,2,3,4,5],[1,2,3,4,5])
-plt.title("(d) yago4 with 4.5million, 2 size of pattern",fontsize=12)
+plt.title("(d) yago4 with 4.5million nodes, 2 size of pattern",fontsize=12)
 
 ax = fig.add_subplot(235, projection='3d')
 x1 = [3,4,5,6,7,8,9,10,11,12]
@@ -126,7 +126,7 @@ ax.set_ylabel('PatternID')
 ax.set_zlabel('Time(seconds)') 
 plt.xticks([3,4,5,6,7,8,9,10,11,12],[3,4,5,6,7,8,9,10,11,12]) 
 plt.yticks([1,2,3,4,5],[1,2,3,4,5])
-plt.title("(e) yago4 with 4.5million, 3 size of pattern",fontsize=12)
+plt.title("(e) yago4 with 4.5million nodes, 3 size of pattern",fontsize=12)
 
 ax = fig.add_subplot(236, projection='3d')
 x1 = [4,5,6,7,8,9,10,11,12]
@@ -138,6 +138,6 @@ ax.set_ylabel('PatternID')
 ax.set_zlabel('Time(seconds)') 
 plt.xticks([4,5,6,7,8,9,10,11,12],[4,5,6,7,8,9,10,11,12]) 
 plt.yticks([1],[1])
-plt.title("(f) yago4 with 4.5million, 4 size of pattern",fontsize=12)
+plt.title("(f) yago4 with 4.5million nodes, 4 size of pattern",fontsize=12)
 
 plt.show()
